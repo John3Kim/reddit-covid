@@ -1,0 +1,18 @@
+example.txt 
+Examples of how queries are run in Reddit.
+
+Submission Endpoint:
+https://api.pushshift.io/reddit/search/submission/?id=fssv9o
+
+Retrieving comment ids from submissions ids endpoint.
+https://api.pushshift.io/reddit/submission/comment_ids/fssv9o 
+# From the above, we get the following: 
+0	"fm39y7u"
+1	"fm3a8t9"
+2	"fm3b0al"
+3	"fm3da6u"
+4	"fm3n9w5"
+5	"fm3qfpv"
+6	"fm3zokq"
+7	"fm475rl"
+https://api.pushshift.io/reddit/search/comment?id=fm39y7u
